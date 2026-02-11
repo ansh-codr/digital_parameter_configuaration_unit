@@ -4,6 +4,7 @@
 #include <Adafruit_SSD1306.h>
 #define Screen_Width 128
 #define Screen_Height 64
+#define OLED_ASSR 0x3C
 void setup() {
 // write your initialization code here
 }
