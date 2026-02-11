@@ -8,6 +8,7 @@
 Adafruit_SSD1306 display(Screen_Width, Screen_Height, &Wire, -1);
 void setup() {
 // write your initialization code here
+    Serial.begin(9600);
 }
 
 void loop() {
