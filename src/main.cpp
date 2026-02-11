@@ -15,6 +15,9 @@ void setup() {
     }
     //Clear Display
     display.clearDisplay();
+    //Set Text Size
+    display.setTextSize(1);
+    display.setTextColor(SSD1306_WHITE);
 }
 
 void loop() {
